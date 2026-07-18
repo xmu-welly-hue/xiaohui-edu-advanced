@@ -63,3 +63,28 @@
 
 - 模板默认预装核心组件库 `shadcn/ui`，位于`src/components/ui/`目录下
 - Next.js 项目**必须默认**采用 shadcn/ui 组件、风格和规范，**除非用户指定用其他的组件和规范。**
+
+## 课程展示页结构
+
+本项目为「小灰教育」初中数学超纲方法课程展示页，纯前端单页应用。
+
+### 页面区块
+
+| 区块 | 组件文件 | 说明 |
+|------|----------|------|
+| Hero | `src/components/course/hero-section.tsx` | 品牌 + 标题 + slogan + 教师信息 |
+| 课程特色 | `src/components/course/features-section.tsx` | 4大特色卡片 |
+| 课程大纲 | `src/components/course/course-outline.tsx` | 22个可折叠课程卡片 |
+| 9大模块 | `src/components/course/modules-section.tsx` | 模块网格 + 统计数字 |
+| 定价 | `src/components/course/pricing-section.tsx` | 价格对比 + 优惠信息 |
+| 联系方式 | `src/components/course/contact-section.tsx` | 电话 + 微信 + 品牌信息 |
+
+### 关键依赖
+
+- `katex` — 数学公式渲染（Hero 区域展示）
+- `src/hooks/use-scroll-reveal.ts` — IntersectionObserver 滚动渐入动效
+- `src/components/course/math-formula.tsx` — KaTeX 客户端渲染组件
+
+### 设计规范
+
+详见 `DESIGN.md`。主色深蓝 `#0A1628`~`#1B2D4F`，强调色金色 `#D4A853`~`#F0C75E`。
