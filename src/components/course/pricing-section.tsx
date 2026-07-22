@@ -23,8 +23,14 @@ export function PricingSection() {
             <div className="p-8 sm:p-10">
               {/* Course summary */}
               <div className="text-center mb-8">
-                <h3 className="text-xl font-bold text-white mb-2">初中数学超纲方法课程</h3>
-                <p className="text-gold-300/60 text-sm">20次课 · 40课时 · 沪教版（五四制）</p>
+                <h3 className="text-xl font-bold text-white mb-3">初中数学超纲方法课程</h3>
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gold-500/10 border border-gold-500/20">
+                  <span className="text-gold-400 font-bold text-base sm:text-lg">20次课</span>
+                  <span className="text-gold-500/40">·</span>
+                  <span className="text-gold-400 font-bold text-base sm:text-lg">40课时</span>
+                  <span className="text-gold-500/40">·</span>
+                  <span className="text-gold-300/60 text-sm">沪教版（五四制）</span>
+                </div>
               </div>
 
               {/* Price display */}
