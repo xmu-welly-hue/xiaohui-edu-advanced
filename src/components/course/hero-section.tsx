@@ -59,7 +59,7 @@ export function HeroSection() {
         <p className="text-lg sm:text-xl text-gold-300/80 mb-8 max-w-2xl mx-auto leading-relaxed">
           以高阶思维降维打击中考压轴题
           <br className="hidden sm:block" />
-          20次课 · 9大模块 · 60+核心方法
+          23次课 · 10大模块 · 55个核心方法
         </p>
 
         {/* Math formula showcase */}

@@ -14,6 +14,7 @@ const modules: Module[] = [
   { name: '几何证明', count: 12, color: 'from-emerald-500 to-emerald-600', icon: '△' },
   { name: '代数方程', count: 9, color: 'from-violet-500 to-violet-600', icon: 'χ' },
   { name: '不等式', count: 7, color: 'from-amber-500 to-amber-600', icon: '≥' },
+  { name: '解析几何', count: 15, color: 'from-orange-500 to-orange-600', icon: '📐' },
   { name: '数列规律', count: 4, color: 'from-cyan-500 to-cyan-600', icon: 'aₙ' },
   { name: '数论逻辑', count: 4, color: 'from-rose-500 to-rose-600', icon: 'mod' },
   { name: '三角变换', count: 2, color: 'from-indigo-500 to-indigo-600', icon: 'θ' },
@@ -29,10 +30,10 @@ export function ModulesSection() {
       <div className="max-w-5xl mx-auto px-6">
         {/* Section header */}
         <div className={`text-center mb-14 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
-          <p className="text-gold-500 text-sm font-medium tracking-wider uppercase mb-3">9 Major Modules</p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">9大知识模块</h2>
+          <p className="text-gold-500 text-sm font-medium tracking-wider uppercase mb-3">10 Major Modules</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">10大知识模块</h2>
           <p className="text-gold-300/60 max-w-lg mx-auto">
-            覆盖初中数学全部超纲领域，共计60+核心方法，构建完整的高阶解题体系
+            覆盖初中数学全部超纲领域，共计55个核心方法，构建完整的高阶解题体系
           </p>
         </div>
 
@@ -71,9 +72,9 @@ export function ModulesSection() {
         {/* Stats bar */}
         <div className={`mt-12 grid grid-cols-3 gap-4 transition-all duration-700 delay-400 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
           {[
-            { label: '核心方法', value: '60+' },
-            { label: '知识模块', value: '9' },
-            { label: '课程次数', value: '20次' },
+            { label: '核心方法', value: '55' },
+            { label: '知识模块', value: '10' },
+            { label: '课程次数', value: '23次' },
           ].map((stat) => (
             <div key={stat.label} className="text-center p-4 rounded-xl bg-navy-800/30 border border-navy-600/20">
               <p className="text-2xl sm:text-3xl font-bold gold-shimmer">{stat.value}</p>

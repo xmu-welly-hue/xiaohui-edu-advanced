@@ -25,9 +25,9 @@ export function PricingSection() {
               <div className="text-center mb-8">
                 <h3 className="text-xl font-bold text-white mb-3">初中数学超纲方法课程</h3>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gold-500/10 border border-gold-500/20">
-                  <span className="text-gold-400 font-bold text-base sm:text-lg">20次课</span>
+                  <span className="text-gold-400 font-bold text-base sm:text-lg">23次课</span>
                   <span className="text-gold-500/40">·</span>
-                  <span className="text-gold-400 font-bold text-base sm:text-lg">40课时</span>
+                  <span className="text-gold-400 font-bold text-base sm:text-lg">46课时</span>
                   <span className="text-gold-500/40">·</span>
                   <span className="text-gold-300/60 text-sm">沪教版（五四制）</span>
                 </div>
@@ -38,7 +38,7 @@ export function PricingSection() {
                 {/* Original price */}
                 <div className="mb-3">
                   <span className="text-gold-300/40 text-lg line-through">
-                    ¥12,000
+                    ¥13,800
                   </span>
                   <span className="text-gold-300/40 text-sm ml-2">（300元/小时）</span>
                 </div>
@@ -46,10 +46,10 @@ export function PricingSection() {
                 {/* Discounted price */}
                 <div className="relative inline-block">
                   <p className="text-5xl sm:text-6xl font-bold text-white mb-2">
-                    ¥<span className="gold-shimmer">10,800</span>
+                    ¥<span className="gold-shimmer">12,000</span>
                   </p>
                   <div className="absolute -top-3 -right-16 sm:-right-20 px-3 py-1 rounded-full bg-gradient-to-r from-gold-500 to-gold-400 text-navy-950 text-xs font-bold">
-                    省 ¥1,200
+                    省 ¥1,800
                   </div>
                 </div>
                 <p className="text-gold-300/50 text-sm mt-2">打包优惠价</p>
@@ -58,9 +58,9 @@ export function PricingSection() {
               {/* Benefits list */}
               <div className="space-y-3 mb-8">
                 {[
-                  '20次系统课程（每次2小时）',
-                  '60+超纲方法全面覆盖',
-                  '9大知识模块体系化教学',
+                  '23次系统课程（每次2小时）',
+                  '55个超纲方法全面覆盖',
+                  '10大知识模块体系化教学',
                   '中考压轴真题多方法对比',
                   '微积分启蒙彩蛋课',
                   '课后答疑与学习跟踪',
