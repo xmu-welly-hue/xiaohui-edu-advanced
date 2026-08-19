@@ -35,30 +35,32 @@ export function PricingSection() {
 
               {/* Price display */}
               <div className="text-center mb-8">
-                {/* Original price */}
+                {/* Scattered price */}
                 <div className="mb-3">
                   <span className="text-gold-300/40 text-lg line-through">
-                    ¥13,800
+                    ¥15,180
                   </span>
-                  <span className="text-gold-300/40 text-sm ml-2">（300元/小时）</span>
+                  <span className="text-gold-300/40 text-sm ml-2">（单次购买 330元/小时）</span>
                 </div>
 
-                {/* Discounted price */}
+                {/* Package price */}
                 <div className="relative inline-block">
                   <p className="text-5xl sm:text-6xl font-bold text-white mb-2">
-                    ¥<span className="gold-shimmer">12,000</span>
+                    ¥<span className="gold-shimmer">13,800</span>
                   </p>
                   <div className="absolute -top-3 -right-16 sm:-right-20 px-3 py-1 rounded-full bg-gradient-to-r from-gold-500 to-gold-400 text-navy-950 text-xs font-bold">
-                    省 ¥1,800
+                    省 ¥1,380
                   </div>
                 </div>
-                <p className="text-gold-300/50 text-sm mt-2">打包优惠价</p>
+                <p className="text-gold-300/50 text-sm mt-2">打包购买优惠价 · 300元/小时</p>
               </div>
 
               {/* Benefits list */}
               <div className="space-y-3 mb-8">
                 {[
                   '23次系统课程（每次2小时）',
+                  '单次购买 330元/小时',
+                  '打包购买优惠价 300元/小时',
                   '55个超纲方法全面覆盖',
                   '10大知识模块体系化教学',
                   '中考压轴真题多方法对比',
